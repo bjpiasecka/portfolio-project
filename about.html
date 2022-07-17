@@ -10,8 +10,49 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top menu">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center me-5"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">home</a>
+            <a class="nav-link active" aria-current="page" href="about.html"
+              >about me</a
+            >
+            <a class="nav-link" href="#">projects</a>
+            <a class="nav-link" href="#">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header">
+      <div class="logo">
+        <img src="src/logo.svg" alt="" width="250" class="mt-5 mb-3" />
+      </div>
+    </div>
+  </body>
 </html>
