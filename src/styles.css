@@ -26,7 +26,7 @@ h2 {
   font-size: 30px;
   padding-top: 130px;
   margin: auto;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -84,6 +84,15 @@ i {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #f5aaaa;
+}
+
 a:visited {
   color: black;
 }
@@ -103,6 +112,17 @@ i {
 p {
   font-family: "Lato", sans-serif;
   font-size: 18px;
+}
+
+footer {
+  text-align: center;
+}
+
+.additional-info {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 30px;
 }
 
 .introduction {
@@ -149,10 +169,6 @@ p {
 .project-preview:hover {
   color: #f5aaaa;
   transition: all 100ms ease-in-out;
-}
-
-.footer {
-  text-align: center;
 }
 
 .social-links {
