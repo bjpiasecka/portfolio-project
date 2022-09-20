@@ -82,6 +82,10 @@ a:visited {
   color: black;
 }
 
+i {
+  color: #f37878;
+}
+
 .about-section {
   max-width: 600px;
   text-align: justify;
@@ -143,5 +147,9 @@ p {
 }
 
 .contact-me {
+  text-align: center;
+}
+
+.footer {
   text-align: center;
 }
