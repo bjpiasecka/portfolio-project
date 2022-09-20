@@ -38,7 +38,7 @@ h3 {
   font-family: "Lato", sans-serif;
   font-size: 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.634);
-  background-color: #f37878;
+  background-color: #f5aaaa;
 }
 
 .next-link {
@@ -67,6 +67,10 @@ h3 {
 .navbar-nav a {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #d9f8c4;
 }
 
 .next-link:hover {
