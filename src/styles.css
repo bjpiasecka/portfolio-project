@@ -146,16 +146,16 @@ p {
   font-weight: bold;
 }
 
-.contact-source {
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 18px;
-}
-
-.contact-me {
-  text-align: center;
+.project-preview:hover {
+  color: #f5aaaa;
+  transition: all 100ms ease-in-out;
 }
 
 .footer {
   text-align: center;
+}
+
+.social-links {
+  text-align: center;
+  padding: 50px;
 }
