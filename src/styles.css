@@ -160,3 +160,21 @@ footer {
   text-align: center;
   padding: 50px;
 }
+
+@media (max-width: 991px) {
+  .about-section {
+    box-shadow: none;
+    text-align: center;
+  }
+  .projects-section {
+    box-shadow: none;
+    text-align: center;
+  }
+  .projects-section h2 {
+    text-align: center;
+  }
+
+  .projects-section p {
+    text-align: center;
+  }
+}
