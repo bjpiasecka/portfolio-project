@@ -151,7 +151,7 @@ footer {
   padding: 70px 10px;
 }
 
-.projects-section a {
+/* .projects-section a {
   text-decoration: none;
   font-family: var(--primary-font);
   display: block;
@@ -164,7 +164,7 @@ footer {
   max-width: 100px;
   box-shadow: 10px 5px 5px black;
   font-weight: bold;
-}
+} */
 
 .project-preview:hover {
   color: #f5aaaa;
