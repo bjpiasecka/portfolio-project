@@ -166,10 +166,6 @@ footer {
   text-align: center;
 }
 
-.projects-section img {
-  width: 400px;
-}
-
 .project-preview:hover {
   color: #f5aaaa;
   transition: all 100ms ease-in-out;
