@@ -24,9 +24,16 @@ h2 {
   font-family: "Lato", sans-serif;
   text-align: center;
   font-size: 30px;
-  padding-top: 130px;
+  padding-top: 10px;
   margin: auto;
   padding-bottom: 10px;
+}
+
+.page-headline {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 120px;
 }
 
 h3 {
@@ -131,7 +138,7 @@ footer {
 
 .projects-section {
   max-width: 900px;
-  text-align: justify;
+  text-align: center;
   margin: 0 auto;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.634);
   padding: 30px 30px;
@@ -139,21 +146,21 @@ footer {
 }
 
 .projects-section h2 {
-  text-align: left;
-}
-
-.projects-section p {
-  text-align: left;
+  text-align: center;
 }
 
 .projects-section img {
   width: 400px;
-  padding: 70px 10px;
 }
 
 .project-preview:hover {
   color: #f5aaaa;
   transition: all 100ms ease-in-out;
+}
+
+.project-description {
+  padding-bottom: 10px;
+  text-align: left;
 }
 
 .social-links {
@@ -173,8 +180,7 @@ footer {
   .projects-section h2 {
     text-align: center;
   }
-
-  .projects-section p {
+  .project-description {
     text-align: center;
   }
 }
